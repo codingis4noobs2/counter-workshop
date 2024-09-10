@@ -20,7 +20,7 @@ async function main() {
   let sierraCode, casmCode;
 
   try {
-    ({ sierraCode, casmCode } = await getCompiledCode("counter_Counter"));
+    ({ sierraCode, casmCode } = await getCompiledCode("workshop_Counter"));
   } catch (error: any) {
     console.log("Failed to read contract files");
     process.exit(1);
